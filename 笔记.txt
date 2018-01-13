@@ -1,4 +1,4 @@
-webpack  打包工具 转换工具 模块加载器
+﻿webpack  打包工具 转换工具 模块加载器
 vue-cli 脚手架  (搭建项目环境)  命令行工具
 es6模块化
 
@@ -241,3 +241,4 @@ vue-swipe:
 			  request.credentials = true  统一
 			  next();
 			});
+yuanliang
