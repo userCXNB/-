@@ -49,20 +49,6 @@ axios.interceptors.response.use(function (response) {
 }, function (error) {
   return Promise.reject(error);
 });
-
-
-axios.defaults.withCredentials=true;
-Vue.prototype.$http = axios;
-
-//引入全局过滤器
-import filte from './filters'
-
-import 'animate.css'
-
-for(var key in filte){
-  Vue.filter(key,filte[key]);
-}
-
 new Vue({
   el: '#app',
   render: h => h(App),
