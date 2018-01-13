@@ -26,42 +26,7 @@ webpack的历史
 
 		加载css : 	npm install css-loader style-loader
 
-		es6 转 es5 : babel-loader babel-core babel-preset-es2015
-	模块管理:
-		module:{
-			rules:[
-				{test:'要转换的文件',use:['要使用的loader1','loader2']}
-			]
-		}
-	webpack项目配置:	webpack.config.js	就是一个node程序
-		webpack.config.js:  配置一些webpack相关信息(入口，出口模块，loader)
-
-		命令行：webpack  参数
-			参数： p 压缩 需要压缩工具  -w 实时监听自动打包 -d 开启source-map模式
-------------------------------------------------------------------------------------
-
-需要自动刷新浏览器(webpack搭建前端web服务器的工具webpack-dev-server)
-安装:	npm install webpack-dev-server -g
-	webpack-dev-server 开启web服务器  localhost:8080
-	webpack-dev-server 参数
-		参数:	--port 8001  改端口
-				--open 开启浏览器
-				--hot 热重载(局部修改)   old
-				--inline 热重载(局部修改)  news
-	参数配置方式:
-		webpack.config.js
-			devServer:{ //webpack-dev-server 配置
-			    port: 8001,
-			    open: true
-			  }
-		package.json -> scripts
-			"start|dev":"webpack-dev-server --port xxxx --open"
-			npm start
-
---------------------------------------------------------
-脚手架: vue-cli  搭建vue项目环境
-
-安装 npm instal vue-cli -g          vue --version
+		es6 转 es5 : babel-loader babel-core babel-preset-es201
 
 创建项目环境: 
 	vue init webpack-simple 目录    webpack-simple|webpack  模板
@@ -121,7 +86,10 @@ vue-cli + vue-router + axios + vue-aniamte + .....   全家桶
 				|-component
 					|-loading.vue
 			|-store
-				|-index.js
+				|-index.jsebpack搭建前端web服务器的工具webpack-dev-server)
+安装:	npm install webpack-dev-server -g
+	webpack-dev-server 开启web服务器  localhost:8080
+
 				|-actions.js
 				|-mutations.js
 				|-getters.js
