@@ -1,0 +1,64 @@
+.title_bg2{ border-bottom:1px solid #dadada;;height:32px;}
+.title_bg2 .title2{color:#FFFFFF;font-size:18px;}
+.tabs{}
+.tabs li{float:left;height:30px;text-align:center;width:120px;}
+.tabs li a{color:#FFFFFF;line-height:30px;background:none;}
+.sec1{ border-bottom:3px solid #4ca4b7;}
+/* .sec2{background:no-repeat scroll 0 0 transparent;} */
+.tabs li.sec1 a{color:#4ca4b7;}
+.tabs li.sec2 a{color:#424242;}
+
+.wytw{margin:15px 15px;}
+.wytw .tit{color:#0057bd;font-size:16px;padding:4px 0 8px 36px; background:url(../images/ico.png) no-repeat 0 0; background-size:40px; margin-bottom:8px;}
+.wytw .yhdp_con_text{width:100%;}
+.wytw textarea{width:96%;height:93px;padding:8px 5px;background:#fff;display:block;border:1px solid #dadada;;overflow:auto;color:#424242;}
+.wytw .yhdp_con_zs{ float:left;line-height:40px; height:40px;}
+.wytw .yhdp_con_zs span{color:#42a4a4;}
+.wytw .tj{ overflow:hidden;}
+.wytw .yhdp_con_tj{padding:5px 10px 0 0;float:right;}
+.wytw .yhdp_con_tj .yhdp_btn3{display:inline-block;*display:inline;zoom:1;}
+.wytw .yhdp_con_tj .yhdp_btn3 a{border:1px solid #dadada; border-radius:5px; height:30px; line-height:30px;padding:0 30px;background:-moz-linear-gradient(center top,#fff,#f1f1f1) repeat scroll 0 0 rgba(0,0,0,0);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(1,#f1f1f1)); color:#0057bd;}
+.stwt{margin:15px 15px;}
+.stwt .tit{border:1px solid #dadada; height:52px; line-height:52px;padding:0 15px;background:-moz-linear-gradient(center top,#fff,#f1f1f1) repeat scroll 0 0 rgba(0,0,0,0);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(1,#f1f1f1));}
+.stwt .tit span{ background:url(../images/ico.png) no-repeat 0 -50px;line-height:52px; height:52px; display:block; padding-left:37px;color:#0057bd;font-size:16px;}
+.stwt .con{}
+.stwt .con ul{border:1px solid #dadada;}
+.stwt .con ul li{ padding:10px;}
+.stwt .con ul li .wt{ padding:0 0 0 35px;background:url(../images/ico.png) no-repeat 0 -110px; line-height:22px;}
+.stwt .con ul li .wt p.time{ color:#adadad;}
+.stwt .con ul li .wt p{ font-size:15px; line-height:30px;}
+.stwt .con ul li .hd{ padding:10px 15px; background:#f2f2f2; position:relative; margin-top:15px;}
+.stwt .con ul li .hd p{ line-height:28px;}
+.stwt .con ul li .hd:before{    content: '';
+    border-style: solid;
+    border-color:transparent transparent  #f2f2f2  transparent;
+    border-width: 10px 10px;
+    height: 0;
+    position: absolute;
+    left: 30px;
+    top: -20px;
+    width: 0;
+}
+
+.drth{margin:15px 15px;}
+.drth .tit{color:#0057bd;font-size:16px;padding:4px 0 8px 46px; background:url(../images/ico5.png) no-repeat 12px 0px  ; background-size:28px; margin-bottom:8px;}
+.drth .yhdp_con_text{width:100%;}
+.drth textarea{width:96%;height:93px;padding:8px 5px;background:#fff;display:block;border:1px solid #dadada;;overflow:auto;color:#424242;}
+.drth .yhdp_con_zs{ line-height:40px; height:40px;}
+.drth .yhdp_con_zs span{color:#424242; font-size:16px;}
+.drth .yhdp_con_zs span input{ margin-left:15px;}
+.drth .tj{ overflow:hidden;}
+.drth .yhdp_con_tj{padding:5px 10px 0 0;}
+.drth .yhdp_con_tj .yhdp_btn3{display:inline-block;*display:inline;zoom:1;}
+.drth .yhdp_con_tj .yhdp_btn3 a{border:1px solid #dadada; border-radius:5px; height:30px; line-height:30px;padding:0 30px;background:-moz-linear-gradient(center top,#fff,#f1f1f1) repeat scroll 0 0 rgba(0,0,0,0);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(1,#f1f1f1)); color:#0057bd;}
+.thqk{margin:15px 15px;}
+.thqk .tit{border:1px solid #dadada; height:52px; line-height:52px;padding:0 15px;background:-moz-linear-gradient(center top,#fff,#f1f1f1) repeat scroll 0 0 rgba(0,0,0,0);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(1,#f1f1f1));}
+.thqk .tit span{ background:url(../images/ico5.png) no-repeat 0px 9px  ; background-size:30px;line-height:52px; height:52px; display:block; padding-left:34px;color:#0057bd;font-size:16px;}
+.thqk .con{}
+.thqk .con ul{border:1px solid #dadada;}
+.thqk .con ul li{ padding:10px; border-bottom:1px solid #dadada;}
+.thqk .con ul li:last-child { border-bottom:none;}
+.thqk .con ul li .wt{ padding:0 0 0 0px; line-height:22px;}
+.thqk .con ul li .wt p.time{ color:#adadad;}
+.thqk .con ul li .hd{ padding:10px 15px; background:#f2f2f2; position:relative; margin-top:15px;}
+.thqk .con ul li .wt p{ font-size:15px;line-height:30px;}

@@ -1,0 +1,10 @@
+.xx_con ul{width:100%;}
+.xx_con ul li{ border:1px solid #dadada; height:52px; line-height:52px;padding:0 15px;background:-moz-linear-gradient(center top,#fff,#f1f1f1) repeat scroll 0 0 rgba(0,0,0,0);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(1,#f1f1f1)); margin-bottom:-1px;}
+.xx_con ul li i{float:right;}
+
+.xx_con ul li span{ font-family:"SimSun"; font-size:18px; font-weight:600;}
+
+.xx_con ul li a{ width:28px; height:20px;float:right;margin-right:20px}
+.xx_con ul li a.on{ background-position:0 0px;}
+.xx_con .sub_li{ position:relative; margin-bottom:10px; padding:10px; background:#f6f6f6;border:1px solid #dadada; border-top:none;}
+.xx_con .sub_li p{ line-height:28px;}

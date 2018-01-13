@@ -1,0 +1,15 @@
+.wdxx{margin:15px 15px; border:1px solid #dadada;}
+.wdxx .tit{border-bottom:2px solid #0057bd; height:42px; line-height:42px;padding:0 15px;background:-moz-linear-gradient(center top,#fff,#f1f1f1) repeat scroll 0 0 rgba(0,0,0,0);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(1,#f1f1f1));}
+.wdxx .tit span.sj{ color:#6b6b6b; width:30%; min-width:100px; float:left; font-size:16px;}
+.wdxx .tit span.xx{ color:#0057bd; width:60%; float:left; font-size:16px;}
+.wdxx .con{}
+.wdxx .con ul{}
+.wdxx .con ul li{ padding:10px; border-bottom:1px solid #dadada;}
+
+.wdxx .con ul li:hover{ background:#f6f6f6;}
+.wdxx .con ul li a{ width:100%}
+.wdxx .con ul li:last-child { border-bottom:none;}
+.wdxx .con ul li .wt{ padding:0 0 0 0px; line-height:22px; overflow:hidden;}
+.wdxx .con ul li .wt p.time{ color:#6b6b6b; width:30%; min-width:100px; float:left;}
+.wdxx .con ul li .wt p.xx{ color:#6b6b6b; width:60%; float:left;}
+.wdxx .con ul li .wt p{ font-size:15px;line-height:26px;}

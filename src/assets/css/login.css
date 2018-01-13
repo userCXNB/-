@@ -1,0 +1,17 @@
+.list{padding:20px; background:url(/src/assets/images/list_bg.jpg) repeat-x;}
+.list2{padding:20px 0; background:url(/src/assets/images/list_bg.jpg) repeat-x;}
+.login{width:100%;height:100%;margin:0 auto;min-width:320px;max-width:768px;background-size:100%;padding-bottom:50px;}
+
+.login_con{margin:0px;}
+
+.login_con ul li {margin-bottom:10px;}
+.login_con ul li label{font-size:20px; line-height:32px; font-weight:bold;}
+.login_con ul li p{ line-height:32px; color:#a2a1a1; font-size:16px;}
+.login_con ul li.login_name{border-bottom:1px solid #ccc;}
+.login_name_input{width:100%;height:32px;vertical-align:middle;font-size:14px;color:#b6b6b6;border:1px solid #dcdcdc;padding:0 3px; background:#fff;}
+.cont_input{margin:20px 0 0;}
+.orange{background:-moz-linear-gradient(center top,#ffad00,#ff8d00) repeat scroll 0 0 rgba(0,0,0,0);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#ffad00),color-stop(1,#ff8d00));border:1px solid #DA7C0C;color:#FEF4E9;}
+.grey{background:-moz-linear-gradient(center top,#e5e7e9,#e5e7e9) repeat scroll 0 0 rgba(0,0,0,0);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#e5e7e9),color-stop(1,#e5e7e9));border:1px solid #bfc1c3;color:#544f3b;}
+.button{width:100%;border-radius:3px;box-shadow:0 1px 2px rgba(0,0,0,0.2);cursor:pointer;display:inline-block;font:16px/100% Arial,Helvetica,sans-serif;font-weight:bold;margin:0 2px 15px;outline:medium none;padding:0.5em 2em 0.55em;text-align:center;text-decoration:none;vertical-align:baseline;}
+
+.login_con ul li .nj{width:100%; height:32px; border:1px solid #dcdcdc}
