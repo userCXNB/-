@@ -1,30 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-
-//链接路由
-import VueRouter from 'vue-router';
-
-//传实例变全局
-Vue.use(VueRouter);
-
-//引入路由配置
-import routes from './router.config';
-//创建路由对象
-const router = new VueRouter(routes);
-
-
-// import VueTouch from "vue-touchjs"
-// Vue.use(VueTouch);
-
-
-import {Swipe,SwipeItem} from 'vue-swipe';
-
-Vue.component("swipe",Swipe)
-Vue.component("swipe-item",SwipeItem)
-import '../node_modules/vue-swipe/dist/vue-swipe.css';
-
-
 //引入状态管理
 import store from './store';
 
